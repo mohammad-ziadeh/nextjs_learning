@@ -14,11 +14,7 @@ export default function Nav() {
             name: "dashboard",
 
         },
-        {
-            href: "/dashboard/users",
-            name: "users",
 
-        },
         {
             href: "/about",
             name: "about",
