@@ -3,7 +3,7 @@ import type { User } from "@/app/lib/definitions";
 
 
 async function getUsers(): Promise<User[]> {
-  const response = await fetch("http://192.168.1.113:3000/api/users");
+  const response = await fetch("https://nextjs-learning-one-sand.vercel.app/api/users");
   if (!response.ok) throw new Error("failed to fetch data");
 
 
